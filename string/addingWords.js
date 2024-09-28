@@ -1,7 +1,6 @@
 function addChar(str, word) {
   //adding to the last
   //return str.concat(word)
-
   //adding at the middle and at the last
   const words = " web";
   let res = "";

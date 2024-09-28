@@ -1,4 +1,4 @@
-//JavaScript program to check if a string contains only alphabetic characters
+//JavaScript program to check if a string contains given word
 
 function stringContains(str, word) {
   return str.includes(word);

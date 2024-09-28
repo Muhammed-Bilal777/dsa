@@ -4,6 +4,6 @@ function palindrome(str, str1) {
   return str1 === str1.split("").reverse().join(""); //false
 }
 
-const str = "mom";
+const str = "java";
 const str1 = "javascript";
 console.log(palindrome(str, str1));
