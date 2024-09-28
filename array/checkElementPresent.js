@@ -5,7 +5,7 @@ function checkElementPresent(arr) {
       return true;
     }
   }
- 
+} 
 
 let arr = [19, 11, 15, 17, 12, 17, 14, 101, 23, 55, 77, 100];
-console.log(checkElementPresent(arr));
+console.log(checkElementPresent(arr))
