@@ -1,10 +1,10 @@
-function passingCallback(arr) {
-	console.log(arr);
-	func();
+function passingCallback(arr, aa) {
+  console.log(arr);
+  return aa(arr);
 }
 
-function func() {
-	console.log("call back");
+function func(a) {
+  a.forEach((item) => console.log(item));
 }
 arr = [1, 2, 3];
 
